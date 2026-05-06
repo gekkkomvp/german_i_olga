@@ -1,0 +1,17 @@
+# Перейдите в папку с вашим файлом
+cd C:\Other\Wedding\git
+
+# Инициализируйте Git-репозиторий
+git init
+
+# Добавьте все файлы
+git add --all
+
+# Создайте коммит
+git commit -m 'Добавлено свадебное приглашение'
+
+# Подключите удаленный репозиторий
+git remote add origin https://github.com/gekkkomvp/german_i_olga.git
+
+# Загрузите файлы
+git push -u origin main
